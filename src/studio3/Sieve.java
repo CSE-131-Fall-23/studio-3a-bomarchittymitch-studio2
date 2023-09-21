@@ -22,7 +22,7 @@ public class Sieve {
 		}
 		for (int factor=2 ; factor<=Math.pow(n,0.5);factor++)
 				{
-			for (int mult=2*factor; mult<number.length; mult +=factor) {
+			for (int mult= 2*factor; mult < number.length; mult += factor) {
 				number[mult] = false;
 			
 		}
